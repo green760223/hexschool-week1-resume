@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap");
+
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro", serif;
+  line-height: 1.5;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.title {
+  color: black;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 192px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  width: 370px;
+  margin-top: 160px;
+}
+
+.header-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.sub-title {
+  width: 622px;
+  color: black;
+  font-size: 128px;
+  letter-spacing: 0.12em;
+  font-weight: 400;
+  text-align: right;
+  margin-left: auto;
+}
+
+.content {
+  width: 636px;
+  color: black;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: left;
+  margin-left: auto;
+}
+
+.content-padding {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.font-year {
+  font-style: italic;
+  color: #949494;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.headline-title {
+  width: 636px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ae0000;
+  border-bottom: 3px solid #ae0000;
+  margin-bottom: 16px;
+}
+
+.headline-content {
+  width: 636px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+  font-weight: 400;
+}
+
+.text-no-underline {
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  background: black;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+  padding: 64px 0;
+}
+
+.footer-img {
+  width: 64px;
+  height: 64px;
+}
+
+.padding-middle {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.bg-black {
+  display: flex;
+  background: black;
+  justify-content: center;
+}
+
+.bg-grey {
+  background: #efefef;
+}
